@@ -1,0 +1,451 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local Inside = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Example = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local Example1 = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local Example2 = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local Example3 = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local Example3_2 = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local Outside = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local Example_2 = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local Example1_2 = Instance.new("TextButton")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+local Example2_2 = Instance.new("TextButton")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_12 = Instance.new("UICorner")
+local Example3_3 = Instance.new("TextButton")
+local UIGradient_12 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local Example3_4 = Instance.new("TextButton")
+local UIGradient_13 = Instance.new("UIGradient")
+local UICorner_14 = Instance.new("UICorner")
+local Others = Instance.new("TextButton")
+local UIGradient_14 = Instance.new("UIGradient")
+local UICorner_15 = Instance.new("UICorner")
+local Example_3 = Instance.new("TextButton")
+local UIGradient_15 = Instance.new("UIGradient")
+local UICorner_16 = Instance.new("UICorner")
+local Example1_3 = Instance.new("TextButton")
+local UIGradient_16 = Instance.new("UIGradient")
+local UICorner_17 = Instance.new("UICorner")
+local Example2_3 = Instance.new("TextButton")
+local UIGradient_17 = Instance.new("UIGradient")
+local UICorner_18 = Instance.new("UICorner")
+local Example3_5 = Instance.new("TextButton")
+local UIGradient_18 = Instance.new("UIGradient")
+local UICorner_19 = Instance.new("UICorner")
+local Example3_6 = Instance.new("TextButton")
+local UIGradient_19 = Instance.new("UIGradient")
+local UICorner_20 = Instance.new("UICorner")
+local X = Instance.new("TextButton")
+ 
+-- =-= =-= =-= =-=
+ 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.272103012, 0, 0.240506336, 0)
+Frame.Size = UDim2.new(0, 566, 0, 307)
+Frame.Draggable = true
+Frame.Active = true
+Frame.Selectable = true
+ 
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 35, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 35, 255))}
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.30), NumberSequenceKeypoint.new(1.00, 0.30)}
+UIGradient.Parent = Frame
+ 
+Inside.Name = "Inside"
+Inside.Parent = Frame
+Inside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Inside.Position = UDim2.new(0.0181818176, 0, 0.172131121, 0)
+Inside.Size = UDim2.new(0, 70, 0, 50)
+Inside.Font = Enum.Font.SourceSans
+Inside.Text = "Inside:"
+Inside.TextColor3 = Color3.fromRGB(0, 0, 0)
+Inside.TextScaled = true
+Inside.TextSize = 14.000
+Inside.TextWrapped = true
+ 
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(250, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(250, 170, 255))}
+UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_2.Parent = Inside
+ 
+UICorner.Parent = Inside
+ 
+Example.Name = "AFK Room"
+Example.Parent = Frame
+Example.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example.Position = UDim2.new(0.180868253, 0, 0.172131121, 0)
+Example.Size = UDim2.new(0, 70, 0, 50)
+Example.Font = Enum.Font.SourceSans
+Example.Text = "AFK Room"
+Example.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example.TextScaled = true
+Example.TextSize = 14.000
+Example.TextWrapped = true
+Example.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(78.3509, 18.0257, -69.1917)
+end)
+ 
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_3.Parent = Example
+ 
+UICorner_2.Parent = Example
+ 
+Title.Name = "Title"
+Title.Parent = Frame
+Title.BackgroundColor3 = Color3.fromRGB(163, 120, 255)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(-0.0212014131, 0, -0.026058631, 0)
+Title.Size = UDim2.new(0, 589, 0, 50)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Teleport GUI | Kavra's Kingdom"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+ 
+UICorner_3.CornerRadius = UDim.new(1, 10)
+UICorner_3.Parent = Title
+ 
+UICorner_4.CornerRadius = UDim.new(0.0500000007, 8)
+UICorner_4.Parent = Frame
+ 
+Example1.Name = "Example1"
+Example1.Parent = Frame
+Example1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example1.Position = UDim2.new(0.34517923, 0, 0.172131121, 0)
+Example1.Size = UDim2.new(0, 70, 0, 50)
+Example1.Font = Enum.Font.SourceSans
+Example1.Text = "Main Area"
+Example1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example1.TextScaled = true
+Example1.TextSize = 14.000
+Example1.TextWrapped = true
+Example1.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48.4488, 18.0257, -12.4049)
+end)
+ 
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_4.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_4.Parent = Example1
+ 
+UICorner_5.Parent = Example1
+ 
+Example2.Name = "Example2"
+Example2.Parent = Frame
+Example2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example2.Position = UDim2.new(0.513023794, 0, 0.172131121, 0)
+Example2.Size = UDim2.new(0, 70, 0, 50)
+Example2.Font = Enum.Font.SourceSans
+Example2.Text = "Award Room"
+Example2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example2.TextScaled = true
+Example2.TextSize = 14.000
+Example2.TextWrapped = true
+Example2.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.6133, -38.7385, 16.8703)
+end)
+ 
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_5.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_5.Parent = Example2
+ 
+UICorner_6.Parent = Example2
+ 
+Example3.Name = "Example3"
+Example3.Parent = Frame
+Example3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example3.Position = UDim2.new(0.679101527, 0, 0.172131121, 0)
+Example3.Size = UDim2.new(0, 70, 0, 50)
+Example3.Font = Enum.Font.SourceSans
+Example3.Text = "Toilets"
+Example3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example3.TextScaled = true
+Example3.TextSize = 14.000
+Example3.TextWrapped = true
+Example3.MouseButton1Click:Connect(function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-26.6717, 17.8257, -3.04901)
+end)
+ 
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_6.Parent = Example3
+ 
+UICorner_7.Parent = Example3
+ 
+Example3_2.Name = "Example3"
+Example3_2.Parent = Frame
+Example3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example3_2.Position = UDim2.new(0.841645718, 0, 0.172131121, 0)
+Example3_2.Size = UDim2.new(0, 70, 0, 50)
+Example3_2.Font = Enum.Font.SourceSans
+Example3_2.Text = "Example3_2"
+Example3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example3_2.TextScaled = true
+Example3_2.TextSize = 14.000
+Example3_2.TextWrapped = true
+ 
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_7.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_7.Parent = Example3_2
+ 
+UICorner_8.Parent = Example3_2
+ 
+Outside.Name = "Outside"
+Outside.Parent = Frame
+Outside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Outside.Position = UDim2.new(0.0181818176, 0, 0.383857489, 0)
+Outside.Size = UDim2.new(0, 70, 0, 50)
+Outside.Font = Enum.Font.SourceSans
+Outside.Text = "Outside:"
+Outside.TextColor3 = Color3.fromRGB(0, 0, 0)
+Outside.TextScaled = true
+Outside.TextSize = 14.000
+Outside.TextWrapped = true
+ 
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(250, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(250, 170, 255))}
+UIGradient_8.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_8.Parent = Outside
+ 
+UICorner_9.Parent = Outside
+ 
+Example_2.Name = "Example"
+Example_2.Parent = Frame
+Example_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example_2.Position = UDim2.new(0.180868253, 0, 0.383857489, 0)
+Example_2.Size = UDim2.new(0, 70, 0, 50)
+Example_2.Font = Enum.Font.SourceSans
+Example_2.Text = "Example_2"
+Example_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example_2.TextScaled = true
+Example_2.TextSize = 14.000
+Example_2.TextWrapped = true
+ 
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_9.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_9.Parent = Example_2
+ 
+UICorner_10.Parent = Example_2
+ 
+Example1_2.Name = "Example1"
+Example1_2.Parent = Frame
+Example1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example1_2.Position = UDim2.new(0.34517923, 0, 0.383857489, 0)
+Example1_2.Size = UDim2.new(0, 70, 0, 50)
+Example1_2.Font = Enum.Font.SourceSans
+Example1_2.Text = "Example1_2"
+Example1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example1_2.TextScaled = true
+Example1_2.TextSize = 14.000
+Example1_2.TextWrapped = true
+ 
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_10.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_10.Parent = Example1_2
+ 
+UICorner_11.Parent = Example1_2
+ 
+Example2_2.Name = "Example2"
+Example2_2.Parent = Frame
+Example2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example2_2.Position = UDim2.new(0.513023794, 0, 0.383857489, 0)
+Example2_2.Size = UDim2.new(0, 70, 0, 50)
+Example2_2.Font = Enum.Font.SourceSans
+Example2_2.Text = "Example2-2"
+Example2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example2_2.TextScaled = true
+Example2_2.TextSize = 14.000
+Example2_2.TextWrapped = true
+ 
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_11.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_11.Parent = Example2_2
+ 
+UICorner_12.Parent = Example2_2
+ 
+Example3_3.Name = "Example3"
+Example3_3.Parent = Frame
+Example3_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example3_3.Position = UDim2.new(0.679101527, 0, 0.383857489, 0)
+Example3_3.Size = UDim2.new(0, 70, 0, 50)
+Example3_3.Font = Enum.Font.SourceSans
+Example3_3.Text = "Example3_3"
+Example3_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example3_3.TextScaled = true
+Example3_3.TextSize = 14.000
+Example3_3.TextWrapped = true
+ 
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_12.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_12.Parent = Example3_3
+ 
+UICorner_13.Parent = Example3_3
+ 
+Example3_4.Name = "Example3"
+Example3_4.Parent = Frame
+Example3_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example3_4.Position = UDim2.new(0.841645718, 0, 0.383857489, 0)
+Example3_4.Size = UDim2.new(0, 70, 0, 50)
+Example3_4.Font = Enum.Font.SourceSans
+Example3_4.Text = "Example3_4"
+Example3_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example3_4.TextScaled = true
+Example3_4.TextSize = 14.000
+Example3_4.TextWrapped = true
+ 
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_13.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_13.Parent = Example3_4
+ 
+UICorner_14.Parent = Example3_4
+ 
+Others.Name = "Others"
+Others.Parent = Frame
+Others.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Others.Position = UDim2.new(0.0181818176, 0, 0.59884119, 0)
+Others.Size = UDim2.new(0, 70, 0, 50)
+Others.Font = Enum.Font.SourceSans
+Others.Text = "Others:"
+Others.TextColor3 = Color3.fromRGB(0, 0, 0)
+Others.TextScaled = true
+Others.TextSize = 14.000
+Others.TextWrapped = true
+ 
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(250, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(250, 170, 255))}
+UIGradient_14.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_14.Parent = Others
+ 
+UICorner_15.Parent = Others
+ 
+Example_3.Name = "Example"
+Example_3.Parent = Frame
+Example_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example_3.Position = UDim2.new(0.180868253, 0, 0.59884119, 0)
+Example_3.Size = UDim2.new(0, 70, 0, 50)
+Example_3.Font = Enum.Font.SourceSans
+Example_3.Text = "Example_3"
+Example_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example_3.TextScaled = true
+Example_3.TextSize = 14.000
+Example_3.TextWrapped = true
+ 
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_15.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_15.Parent = Example_3
+ 
+UICorner_16.Parent = Example_3
+ 
+Example1_3.Name = "Example1"
+Example1_3.Parent = Frame
+Example1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example1_3.Position = UDim2.new(0.34517923, 0, 0.59884119, 0)
+Example1_3.Size = UDim2.new(0, 70, 0, 50)
+Example1_3.Font = Enum.Font.SourceSans
+Example1_3.Text = "Example1_3"
+Example1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example1_3.TextScaled = true
+Example1_3.TextSize = 14.000
+Example1_3.TextWrapped = true
+ 
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_16.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_16.Parent = Example1_3
+ 
+UICorner_17.Parent = Example1_3
+ 
+Example2_3.Name = "Example2"
+Example2_3.Parent = Frame
+Example2_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example2_3.Position = UDim2.new(0.513023794, 0, 0.59884119, 0)
+Example2_3.Size = UDim2.new(0, 70, 0, 50)
+Example2_3.Font = Enum.Font.SourceSans
+Example2_3.Text = "Example2_3"
+Example2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example2_3.TextScaled = true
+Example2_3.TextSize = 14.000
+Example2_3.TextWrapped = true
+ 
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_17.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_17.Parent = Example2_3
+ 
+UICorner_18.Parent = Example2_3
+ 
+Example3_5.Name = "Example3"
+Example3_5.Parent = Frame
+Example3_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example3_5.Position = UDim2.new(0.679101527, 0, 0.59884119, 0)
+Example3_5.Size = UDim2.new(0, 70, 0, 50)
+Example3_5.Font = Enum.Font.SourceSans
+Example3_5.Text = "Example3_5"
+Example3_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example3_5.TextScaled = true
+Example3_5.TextSize = 14.000
+Example3_5.TextWrapped = true
+ 
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_18.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_18.Parent = Example3_5
+ 
+UICorner_19.Parent = Example3_5
+ 
+Example3_6.Name = "Example3"
+Example3_6.Parent = Frame
+Example3_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Example3_6.Position = UDim2.new(0.841645718, 0, 0.59884119, 0)
+Example3_6.Size = UDim2.new(0, 70, 0, 50)
+Example3_6.Font = Enum.Font.SourceSans
+Example3_6.Text = "Example3_6"
+Example3_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Example3_6.TextScaled = true
+Example3_6.TextSize = 14.000
+Example3_6.TextWrapped = true
+ 
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 255, 10)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(42, 255, 10))}
+UIGradient_19.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0), NumberSequenceKeypoint.new(1.00, 0)}
+UIGradient_19.Parent = Example3_6
+ 
+UICorner_20.Parent = Example3_6
+ 
+X.Name = "X"
+X.Parent = Frame
+X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X.BackgroundTransparency = 1.000
+X.BorderSizePixel = 0
+X.Position = UDim2.new(0.876325071, 0, 0.807817578, 0)
+X.Size = UDim2.new(0, 50, 0, 50)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(255, 0, 0)
+X.TextScaled = true
+X.TextSize = 14.000
+X.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+X.TextWrapped = true
+X.MouseButton1Click:Connect(function()
+    X.Parent.Visible = false
+end)
